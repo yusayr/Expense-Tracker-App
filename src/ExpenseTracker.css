@@ -1,0 +1,71 @@
+/* ExpenseTracker.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+}
+
+.expense-tracker-container {
+  max-width: 600px;
+  margin: 2rem auto; /* centers horizontally, with space at top */
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  height: 80vh;
+}
+
+.expense-tracker-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.expense-tracker-container input {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.input-boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.addButton-Container {
+    display: flex;
+    justify-content: center;
+    width: 100%;   
+}
+
+.expense-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+.expense-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+}
+
+.expense-list li span {
+  flex: 1;
+  text-align: left;
+}
+
+.expense-list li button {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
